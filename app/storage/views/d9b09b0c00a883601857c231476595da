@@ -1,0 +1,50 @@
+<?php $__env->startSection('content'); ?>
+<div class="alert alert-danger alert-success">
+    <header>
+        <h1>
+            FORM ENTRY MAJALAH DAN KOMIK
+        </h1>
+    </header>
+</div>
+<table class="table table-responsive"> 
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>kode</th>
+            <th>jenis</th>
+            <th>judul</th>
+            <th>tanggal_terbit</th>
+            <th>penerbit</th>
+            <th>harga_sewa</th>
+        </tr>
+    </thead>
+    <tbody>
+ <?php foreach ($penyewaan as $val){?>
+        <tr>
+            <td><?php echo $val->id ?></td>
+            <td><?php echo $val->kode ?></td>
+            <td><?php echo $val->jenis ?></td>
+            <td><?php echo $val->judul ?></td>
+            <td><?php echo $val->tanggal_terbit?></td>
+            <td><?php echo $val->penerbit ?></td>
+            <td><?php echo $val->harga_sewa ?></td>
+            <td>
+                <a class="btn btn-info"
+                   href="<?php echo URL::to('/penyewaan/edit') . '/'. $val->id;?>">
+                    <i class="glyphicon glyphicon-edit"></i>
+                    Edit
+                </a>
+                <a class="btn btn-danger"
+                   href="<?php echo URL::to('/penyewaan/delete') . '/'. $val->id;?>">
+                    <i class="glyphicon glyphicon-cog"></i>
+                    Delete</a>
+                    
+            </td>
+        </tr>
+        <?php } ?>
+    </tbody>
+</table>
+<?php echo $penyewaan->links();?>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layout.bootstrap3.index', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

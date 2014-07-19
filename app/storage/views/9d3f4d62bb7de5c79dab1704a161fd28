@@ -1,0 +1,35 @@
+<nav class="navbar navbar-default" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="<?php echo URL::to('/menu'); ?>"><i class="glyphicon glyphicon-home"></i>Halaman Depan</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-thumbs-down"></i> Data Golongan <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="<?php echo URL::to('/entry/add'); ?>"><i class="glyphicon glyphicon-plus"></i> Input Golongan</a></li>
+                    <li class="divider"></li>
+                    <li><a href="<?php echo URL::to('/entry/view'); ?>"><i class="glyphicon glyphicon-list-alt"></i> View Table </a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-asterisk"></i> Data Pelanggan <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="<?php echo URL::to('/penyewaan/add'); ?>"><i class="glyphicon glyphicon-plus"></i>Input Data Pelanggan</a></li>
+                    <li class="divider"></li>
+                    <li><a href="<?php echo URL::to('/penyewaan/view'); ?>"><i class="glyphicon glyphicon-list-alt"></i> View Table</a></li>
+                </ul>
+            </li>
+          
+        
+    </div><!-- /.navbar-collapse -->
+</nav>

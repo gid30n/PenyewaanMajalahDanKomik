@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/zend/Apache2/htdocs/laravel/app/views/entry/view.blade.php</file>
+            <file>file:/D:/zend/Apache2/htdocs/laravel/app/models/Entry.php</file>
+            <file>file:/D:/zend/Apache2/htdocs/laravel/app/controllers/MemberController.php</file>
+            <file>file:/D:/zend/Apache2/htdocs/laravel/app/views/entry/edit.blade.php</file>
+            <file>file:/D:/zend/Apache2/htdocs/laravel/app/controllers/PenyewaanController.php</file>
+            <file>file:/D:/zend/Apache2/htdocs/laravel/app/views/entry/add.blade.php</file>
+            <file>file:/D:/zend/Apache2/htdocs/laravel/app/views/layout/bootstrap3/header.blade.php</file>
+            <file>file:/D:/zend/Apache2/htdocs/laravel/app/controllers/HomeController.php</file>
+            <file>file:/D:/zend/Apache2/htdocs/laravel/app/models/Penyewaan.php</file>
+            <file>file:/D:/zend/Apache2/htdocs/laravel/app/routes.php</file>
+            <file>file:/D:/zend/Apache2/htdocs/laravel/app/models/Member.php</file>
+            <file>file:/D:/zend/Apache2/htdocs/laravel/app/views/member/view.blade.php</file>
+            <file>file:/D:/zend/Apache2/htdocs/laravel/app/controllers/EntryController.php</file>
+            <file>file:/D:/zend/Apache2/htdocs/laravel/app/views/home/home.blade.php</file>
+        </group>
+    </open-files>
+</project-private>

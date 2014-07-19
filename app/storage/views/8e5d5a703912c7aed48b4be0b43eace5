@@ -1,0 +1,16 @@
+<?php $__env->startSection('content'); ?>
+
+	<div class="alert alert-success alert-dismissable">
+<div class="jumbotron">
+    <div class="container-fluid">  
+        <div class="alert-danger"><h1>Selamat Datang</h1>
+        </div>
+
+        <div class=""><h2>
+            Di Penyewaan Majalah dan Komik 
+            </h2> </div>
+    </div>
+</div>
+</div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layout.bootstrap3.index', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
